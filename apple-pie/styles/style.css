@@ -36,7 +36,7 @@ body {
 /* Write your CSS below */
 
 .banner {
-  background-image: url("images/apple-pie.jpg");
+  background-image: url("../images/apple-pie.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -48,8 +48,10 @@ body {
 }
 
 .Apple-Pie-Text {
+  display: flex;
   color: white;
-  font-size: 2em;
+  font-size: 40px;
+  font-weight: 400;
   position: absolute;
   z-index: 2;
 }
@@ -58,15 +60,11 @@ body {
   margin: 200px;
 }
 
-.Apple-Pie-Text {
-  display: flex;
-}
-
 .Image1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 .Image1 img {
@@ -94,7 +92,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 .Image2 img {
